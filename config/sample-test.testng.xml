@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Cross-Platform">
-    <test name="BStackDemo">
+<suite name="Cross-Platform" parallel="tests" thread-count="2">
+    <test name="SignUpTest">
         <classes>
-            <class name="com.browserstack.BStackDemoTest" />
+            <class name="com.browserstack.SignUpTest" />
+        </classes>
+    </test>
+    <test name="SignIn_PlaceABet">
+        <classes>
+            <class name="com.browserstack.SignIn_PlaceABet" />
         </classes>
     </test>
 </suite>
