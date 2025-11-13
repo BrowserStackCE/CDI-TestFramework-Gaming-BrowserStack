@@ -1,5 +1,5 @@
-userName: 
-accessKey: 
+userName: BROWSERSTACK_USERNAME
+accessKey: BROWSERSTACK_ACCESS_KEY
 platforms:
   - os: OS X
     osVersion: Tahoe
